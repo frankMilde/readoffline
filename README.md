@@ -17,7 +17,7 @@ Program UML
 	- [ ] Text body
 	- [ ] Images
 4. Transform to LaTeX
-  - [ ] Convert `<p></p>` into Absatz
+	- [ ] Convert `<p></p>` into line break
 	- [ ] Convert quotes and apostrophes
 	- [ ] Convert UTF-8 Sonderzeichen
 	- [ ] Lists
@@ -32,19 +32,19 @@ Program UML
 Resources
 ---------
 
--http://blog.davidsingleton.org/parsing-huge-xml-files-with-go/
--https://gist.github.com/bemasher/1224702
--http://www.nokogiri.org/tutorials/parsing_an_html_xml_document.html
--https://stackoverflow.com/questions/22655457/golang-xml-parse
+- http://blog.davidsingleton.org/parsing-huge-xml-files-with-go/
+- https://gist.github.com/bemasher/1224702
+- http://www.nokogiri.org/tutorials/parsing_an_html_xml_document.html
+- https://stackoverflow.com/questions/22655457/golang-xml-parse
 
 Testing articles:
 -----------------
 
--http://science.ksc.nasa.gov/shuttle/missions/51-l/docs/rogers-commission/Appendix-F.txt
--http://nautil.us/issue/9/time/haunted-by-his-brother-he-revolutionized-physics
--http://blog.ycombinator.com/we-make-mistakes
--http://slatestarcodex.com/2014/02/23/in-favor-of-niceness-community-and-civilization/
--http://h14s.p5r.org/2012/09/0x5f3759df.html
+- http://science.ksc.nasa.gov/shuttle/missions/51-l/docs/rogers-commission/Appendix-F.txt
+- http://nautil.us/issue/9/time/haunted-by-his-brother-he-revolutionized-physics
+- http://blog.ycombinator.com/we-make-mistakes
+- http://slatestarcodex.com/2014/02/23/in-favor-of-niceness-community-and-civilization/
+- http://h14s.p5r.org/2012/09/0x5f3759df.html
 
 HTML basics
 -----------
