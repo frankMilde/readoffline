@@ -1,0 +1,30 @@
+\documentclass[10pt,twocolumn,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{etoolbox,csquotes}
+\usepackage[a4paper,margin=2cm,footskip=.75cm]{geometry}
+%\usepackage[latin1]{inputenc}
+%\usepackage[T1]{fontenc} 
+
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\fancyhf{}
+%\fancyhead[R]{\thepage}
+
+\renewcommand{\title}{\LARGE{\textbf{TITLE}}}
+\newcommand{\subtitle}{\Large{SUBTITLE}}
+\renewcommand{\author}{By AUTHOR}
+\newcommand{\filename}{FILENAME}
+
+\begin{document}
+\twocolumn[{%
+ \centering
+ \title    \\[0.5em] 
+ \subtitle \\[0.5em]
+ \author   \\[0.5em]
+}]
+
+\input{\filename}
+
+\end{document}
+
